@@ -1,0 +1,191 @@
+LSB: 4
+MSB: 12
+1. Virtual address 2131 is in page number 133 and offset 3
+In binary to check: Virtual address = 0000100001010011, page number = 0000000010000101, offset number = 0000000000000011
+---------
+2. Virtual address 41881 is in page number 2617 and offset 9
+In binary to check: Virtual address = 1010001110011001, page number = 0000101000111001, offset number = 0000000000001001
+---------
+3. Virtual address 29184 is in page number 1824 and offset 0
+In binary to check: Virtual address = 0111001000000000, page number = 0000011100100000, offset number = 0000000000000000
+---------
+4. Virtual address 51979 is in page number 3248 and offset 11
+In binary to check: Virtual address = 1100101100001011, page number = 0000110010110000, offset number = 0000000000001011
+---------
+5. Virtual address 27683 is in page number 1730 and offset 3
+In binary to check: Virtual address = 0110110000100011, page number = 0000011011000010, offset number = 0000000000000011
+---------
+6. Virtual address 50929 is in page number 3183 and offset 1
+In binary to check: Virtual address = 1100011011110001, page number = 0000110001101111, offset number = 0000000000000001
+---------
+7. Virtual address 40328 is in page number 2520 and offset 8
+In binary to check: Virtual address = 1001110110001000, page number = 0000100111011000, offset number = 0000000000001000
+---------
+8. Virtual address 40939 is in page number 2558 and offset 11
+In binary to check: Virtual address = 1001111111101011, page number = 0000100111111110, offset number = 0000000000001011
+---------
+9. Virtual address 53366 is in page number 3335 and offset 6
+In binary to check: Virtual address = 1101000001110110, page number = 0000110100000111, offset number = 0000000000000110
+---------
+10. Virtual address 55361 is in page number 3460 and offset 1
+In binary to check: Virtual address = 1101100001000001, page number = 0000110110000100, offset number = 0000000000000001
+---------
+11. Virtual address 54526 is in page number 3407 and offset 14
+In binary to check: Virtual address = 1101010011111110, page number = 0000110101001111, offset number = 0000000000001110
+---------
+12. Virtual address 57255 is in page number 3578 and offset 7
+In binary to check: Virtual address = 1101111110100111, page number = 0000110111111010, offset number = 0000000000000111
+---------
+13. Virtual address 61765 is in page number 3860 and offset 5
+In binary to check: Virtual address = 1111000101000101, page number = 0000111100010100, offset number = 0000000000000101
+---------
+14. Virtual address 57012 is in page number 3563 and offset 4
+In binary to check: Virtual address = 1101111010110100, page number = 0000110111101011, offset number = 0000000000000100
+---------
+15. Virtual address 64356 is in page number 4022 and offset 4
+In binary to check: Virtual address = 1111101101100100, page number = 0000111110110110, offset number = 0000000000000100
+---------
+16. Virtual address 12971 is in page number 810 and offset 11
+In binary to check: Virtual address = 0011001010101011, page number = 0000001100101010, offset number = 0000000000001011
+---------
+17. Virtual address 1629 is in page number 101 and offset 13
+In binary to check: Virtual address = 0000011001011101, page number = 0000000001100101, offset number = 0000000000001101
+---------
+18. Virtual address 30495 is in page number 1905 and offset 15
+In binary to check: Virtual address = 0111011100011111, page number = 0000011101110001, offset number = 0000000000001111
+---------
+19. Virtual address 23203 is in page number 1450 and offset 3
+In binary to check: Virtual address = 0101101010100011, page number = 0000010110101010, offset number = 0000000000000011
+---------
+20. Virtual address 37569 is in page number 2348 and offset 1
+In binary to check: Virtual address = 1001001011000001, page number = 0000100100101100, offset number = 0000000000000001
+---------
+21. Virtual address 26817 is in page number 1676 and offset 1
+In binary to check: Virtual address = 0110100011000001, page number = 0000011010001100, offset number = 0000000000000001
+---------
+22. Virtual address 32889 is in page number 2055 and offset 9
+In binary to check: Virtual address = 1000000001111001, page number = 0000100000000111, offset number = 0000000000001001
+---------
+23. Virtual address 32867 is in page number 2054 and offset 3
+In binary to check: Virtual address = 1000000001100011, page number = 0000100000000110, offset number = 0000000000000011
+---------
+24. Virtual address 4279 is in page number 267 and offset 7
+In binary to check: Virtual address = 0001000010110111, page number = 0000000100001011, offset number = 0000000000000111
+---------
+25. Virtual address 34781 is in page number 2173 and offset 13
+In binary to check: Virtual address = 1000011111011101, page number = 0000100001111101, offset number = 0000000000001101
+---------
+26. Virtual address 47811 is in page number 2988 and offset 3
+In binary to check: Virtual address = 1011101011000011, page number = 0000101110101100, offset number = 0000000000000011
+---------
+27. Virtual address 29443 is in page number 1840 and offset 3
+In binary to check: Virtual address = 0111001100000011, page number = 0000011100110000, offset number = 0000000000000011
+---------
+28. Virtual address 32868 is in page number 2054 and offset 4
+In binary to check: Virtual address = 1000000001100100, page number = 0000100000000110, offset number = 0000000000000100
+---------
+29. Virtual address 20280 is in page number 1267 and offset 8
+In binary to check: Virtual address = 0100111100111000, page number = 0000010011110011, offset number = 0000000000001000
+---------
+30. Virtual address 16783 is in page number 1048 and offset 15
+In binary to check: Virtual address = 0100000110001111, page number = 0000010000011000, offset number = 0000000000001111
+---------
+zsh: abort      ./cool
+sophiafox@MacBook-Pro Project3 % gcc -o cool mini-project3.c
+sophiafox@MacBook-Pro Project3 % ./cool                     
+Enter input file name: part1Input.txt
+part1Input.txt
+There are 32 lines in part1Input.txt
+running.....
+LSB: 4
+MSB: 12
+1. Virtual address 2131 is in page number 133 and offset 3
+In binary to check: Virtual address = 0000100001010011, page number = 0000000010000101, offset number = 0000000000000011
+---------
+2. Virtual address 41881 is in page number 2617 and offset 9
+In binary to check: Virtual address = 1010001110011001, page number = 0000101000111001, offset number = 0000000000001001
+---------
+3. Virtual address 29184 is in page number 1824 and offset 0
+In binary to check: Virtual address = 0111001000000000, page number = 0000011100100000, offset number = 0000000000000000
+---------
+4. Virtual address 51979 is in page number 3248 and offset 11
+In binary to check: Virtual address = 1100101100001011, page number = 0000110010110000, offset number = 0000000000001011
+---------
+5. Virtual address 27683 is in page number 1730 and offset 3
+In binary to check: Virtual address = 0110110000100011, page number = 0000011011000010, offset number = 0000000000000011
+---------
+6. Virtual address 50929 is in page number 3183 and offset 1
+In binary to check: Virtual address = 1100011011110001, page number = 0000110001101111, offset number = 0000000000000001
+---------
+7. Virtual address 40328 is in page number 2520 and offset 8
+In binary to check: Virtual address = 1001110110001000, page number = 0000100111011000, offset number = 0000000000001000
+---------
+8. Virtual address 40939 is in page number 2558 and offset 11
+In binary to check: Virtual address = 1001111111101011, page number = 0000100111111110, offset number = 0000000000001011
+---------
+9. Virtual address 53366 is in page number 3335 and offset 6
+In binary to check: Virtual address = 1101000001110110, page number = 0000110100000111, offset number = 0000000000000110
+---------
+10. Virtual address 55361 is in page number 3460 and offset 1
+In binary to check: Virtual address = 1101100001000001, page number = 0000110110000100, offset number = 0000000000000001
+---------
+11. Virtual address 54526 is in page number 3407 and offset 14
+In binary to check: Virtual address = 1101010011111110, page number = 0000110101001111, offset number = 0000000000001110
+---------
+12. Virtual address 57255 is in page number 3578 and offset 7
+In binary to check: Virtual address = 1101111110100111, page number = 0000110111111010, offset number = 0000000000000111
+---------
+13. Virtual address 61765 is in page number 3860 and offset 5
+In binary to check: Virtual address = 1111000101000101, page number = 0000111100010100, offset number = 0000000000000101
+---------
+14. Virtual address 57012 is in page number 3563 and offset 4
+In binary to check: Virtual address = 1101111010110100, page number = 0000110111101011, offset number = 0000000000000100
+---------
+15. Virtual address 64356 is in page number 4022 and offset 4
+In binary to check: Virtual address = 1111101101100100, page number = 0000111110110110, offset number = 0000000000000100
+---------
+16. Virtual address 12971 is in page number 810 and offset 11
+In binary to check: Virtual address = 0011001010101011, page number = 0000001100101010, offset number = 0000000000001011
+---------
+17. Virtual address 1629 is in page number 101 and offset 13
+In binary to check: Virtual address = 0000011001011101, page number = 0000000001100101, offset number = 0000000000001101
+---------
+18. Virtual address 30495 is in page number 1905 and offset 15
+In binary to check: Virtual address = 0111011100011111, page number = 0000011101110001, offset number = 0000000000001111
+---------
+19. Virtual address 23203 is in page number 1450 and offset 3
+In binary to check: Virtual address = 0101101010100011, page number = 0000010110101010, offset number = 0000000000000011
+---------
+20. Virtual address 37569 is in page number 2348 and offset 1
+In binary to check: Virtual address = 1001001011000001, page number = 0000100100101100, offset number = 0000000000000001
+---------
+21. Virtual address 26817 is in page number 1676 and offset 1
+In binary to check: Virtual address = 0110100011000001, page number = 0000011010001100, offset number = 0000000000000001
+---------
+22. Virtual address 32889 is in page number 2055 and offset 9
+In binary to check: Virtual address = 1000000001111001, page number = 0000100000000111, offset number = 0000000000001001
+---------
+23. Virtual address 32867 is in page number 2054 and offset 3
+In binary to check: Virtual address = 1000000001100011, page number = 0000100000000110, offset number = 0000000000000011
+---------
+24. Virtual address 4279 is in page number 267 and offset 7
+In binary to check: Virtual address = 0001000010110111, page number = 0000000100001011, offset number = 0000000000000111
+---------
+25. Virtual address 34781 is in page number 2173 and offset 13
+In binary to check: Virtual address = 1000011111011101, page number = 0000100001111101, offset number = 0000000000001101
+---------
+26. Virtual address 47811 is in page number 2988 and offset 3
+In binary to check: Virtual address = 1011101011000011, page number = 0000101110101100, offset number = 0000000000000011
+---------
+27. Virtual address 29443 is in page number 1840 and offset 3
+In binary to check: Virtual address = 0111001100000011, page number = 0000011100110000, offset number = 0000000000000011
+---------
+28. Virtual address 32868 is in page number 2054 and offset 4
+In binary to check: Virtual address = 1000000001100100, page number = 0000100000000110, offset number = 0000000000000100
+---------
+29. Virtual address 20280 is in page number 1267 and offset 8
+In binary to check: Virtual address = 0100111100111000, page number = 0000010011110011, offset number = 0000000000001000
+---------
+30. Virtual address 16783 is in page number 1048 and offset 15
+In binary to check: Virtual address = 0100000110001111, page number = 0000010000011000, offset number = 0000000000001111
+---------

@@ -1,0 +1,38 @@
+README
+COSC 315 MINIPROJECT 3 PART 1
+
+Group Members:
+
+	Igat Matthew
+	Robin MacDonald
+	Sophia Fox
+	Wiliam Setiawan
+
+
+Compile and Run Instructions:
+
+	1. If you do not already have the essential
+	build packages, run
+	
+		$ sudo apt-get install build-essential
+
+	2. Compile program, run
+
+		$ gcc -o miniproject3 mini-project3.c 
+
+	3. Run program, run
+	
+		$ ./miniproject3
+
+It will prompt for an input file name. Make sure this input file is in the same folder as these files.
+
+To run example:
+	1. Compile program, run
+		$ gcc -o part1 part1.c 
+
+	3. Run program, run
+	
+		$ ./part1
+
+And will give you the sampled output
+
